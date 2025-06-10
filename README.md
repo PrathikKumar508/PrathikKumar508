@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @PrathikKumar508
+- 👋 Hi, I’m @PrathikKumar
 - 👀 I’m interested in ...entrepreneurship
-- 🌱 I’m currently learning ...B.E
+- 🌱 I’m currently learning ...AI and ML
 - 💞️ I’m looking to collaborate on ... coding and machine learning
 - 📫 How to reach me ...email me on prathikk08@gmail.com
 - 😄 Pronouns: ...HEHE
