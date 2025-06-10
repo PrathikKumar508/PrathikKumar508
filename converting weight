@@ -1,0 +1,13 @@
+weight= float(input("enter your weight"))
+print("if your weight is in pounds enter L or enter K if it is in Kgs")
+x=input()
+x=x.upper()
+if x=="L":
+    a=weight*0.453592
+    print("your weight in kg is ",a,"kgs")
+elif x=="K":
+    a=weight/2.205
+    print("your weight in pounds is ",a ,"lbs")
+else:
+    print("you have entered the wrong units")
+    exit()
