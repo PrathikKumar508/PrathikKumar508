@@ -1,0 +1,54 @@
+while True:
+    a=input('''type any 
+    1.help
+    2.start
+    3.stop
+    4.quit
+    >>''')
+    a=a.upper()
+    if a=='HELP':
+        print('''
+        START-to start the car
+        STOP-to stop the car
+        QUIT- out of the game
+        ''')
+    elif a=='START':
+        print('the car has started wrooom!!')
+    elif a=='STOP':
+        print('to stop the car (silence)')
+    elif a=='QUIT':
+        print('come back again')
+        break
+    else:
+        print("i don't understand, please try again")
+    break
+while True:
+    b=input('''type any 
+        1.help
+        2.start
+        3.stop
+        4.quit
+        >>''')
+    b=b.upper()
+    if b == 'HELP':
+        print('''
+           START-to start the car
+           STOP-to stop the car
+           QUIT- out of the game
+           ''')
+    elif b=='START':
+        if a=='START':
+            print("car has already started")
+        else:
+            print('the car has started wrooom!!')
+    elif b=='STOP':
+        if a=='STOP':
+            print("car has already at 0kmph it can't be negative")
+        else:
+            print("car has stopped now")
+    elif b=='QUIT':
+        print('come back again')
+        break
+    else:
+        print("i don't understand, please try again")
+    break
