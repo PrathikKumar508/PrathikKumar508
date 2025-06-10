@@ -1,0 +1,10 @@
+i=0
+while i<3:
+    guess = int(input("guess"))
+    if guess==9:
+        print('the guess is correct i.e 9')
+        break
+    else:
+        print('it is wrong')
+    print(f'you have entered {i + 1} times the guess')
+    i += 1
