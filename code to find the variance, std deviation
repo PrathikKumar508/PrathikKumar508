@@ -1,0 +1,17 @@
+import math
+n= int(input('enter the number of elements in the list'))
+numbers=[]
+mean=0
+print('enter the values')
+for i in range(n):
+    value=float(input())
+    numbers.append(value)
+for x in numbers:
+    mean=sum(numbers)/n
+print(f'mean={mean}')
+sum_of_squares=0
+for x in numbers:
+    sum_of_squares=sum_of_squares+(x-mean)**2
+variance=sum_of_squares/n
+stddev=math.sqrt(variance)
+print(f'variance is { variance} and standard deviation is{stddev} ')
