@@ -1,0 +1,5 @@
+n=input('enter a multi-digit number')
+for digit in '0123456789':
+    count=n.count(digit)
+    if count>0:
+        print(f'this {digit} is repeated {count} number of times')
